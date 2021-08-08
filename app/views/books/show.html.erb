@@ -1,0 +1,19 @@
+<h2>投稿詳細ページ</h2>
+
+<div>
+  <h2>Book detail</h2>
+  <table class="table">
+    <tbody>
+      <tr>
+        
+        <td>
+          <%= attachment_image_tag @user, :image %>
+          
+        </td>
+        <td><%= @book.title %></td>
+        <td><%= @book.body %></td>
+        
+      </tr>
+    </tbody>
+  </table>
+</div>
